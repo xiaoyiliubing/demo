@@ -1,5 +1,7 @@
 class TestState {
-  TestState() {
-    ///Initialize variables
-  }
+
+  int counter = 0;
+
+  TestState();
+
 }

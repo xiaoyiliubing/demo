@@ -4,4 +4,10 @@ import 'state.dart';
 
 class TestLogic extends GetxController {
   final TestState state = TestState();
+
+  void incrementCounter() {
+    state.counter++;
+    update();
+  }
+
 }

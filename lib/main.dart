@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      showPerformanceOverlay: true, // 开启
       debugShowCheckedModeBanner: false,
       title: 'Demo',
       initialRoute: TestPage.routeName,
