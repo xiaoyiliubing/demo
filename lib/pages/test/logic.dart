@@ -9,5 +9,4 @@ class TestLogic extends GetxController {
     state.counter++;
     update();
   }
-
 }

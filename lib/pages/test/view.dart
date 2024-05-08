@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'logic.dart';
 
 class TestPage extends StatefulWidget {
-
   static String routeName = '/demo';
 
   const TestPage({super.key});

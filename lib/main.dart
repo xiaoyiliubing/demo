@@ -16,7 +16,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -27,5 +26,4 @@ class _MyAppState extends State<MyApp> {
       getPages: RouteConfig.getPages,
     );
   }
-
 }
